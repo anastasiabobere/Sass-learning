@@ -12,8 +12,8 @@ body {
   line-height: 1.5;
 }
 header {
-  background: $dark-color;
-  color: set-text-color($dark-color);
+  background: $light-color;
+  color: set-text-color($light-color);
   padding: 1rem;
   h1 {
     text-align: center;
@@ -48,11 +48,19 @@ header {
     @extend %btn-shared;
     background: $light-color;
     color: $dark-color;
+    &:hover {
+      @include transform(rotate(20deg));
+      background-color: darken($light-color, 10%);
+    }
   }
 
   &-dark {
     @extend %btn-shared;
     background: $dark-color;
     color: $light-color;
+    &:hover {
+      @include transform(rotate(-20deg));
+      background-color: lighten($dark-color, 10%);
+    }
   }
 }

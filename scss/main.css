@@ -1,34 +1,38 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 body {
   background: #fbfacd;
   color: #7f669d;
   font-family: "Nunito", sans-serif;
-  line-height: 1.5; }
+  line-height: 1.5;
+}
 
 header {
   background: #fbfacd;
-  color: #7a1b7a;
-  padding: 1rem; }
-
+  color: rgb(122, 27, 122);
+  padding: 1rem;
+}
 header h1 {
-  text-align: center; }
+  text-align: center;
+}
 
 .section {
-  padding: 3rem; }
-
+  padding: 3rem;
+}
 .section h3 {
-  font-size: 2rem; }
-
+  font-size: 2rem;
+}
 .section-a {
   background: #ba94d1;
-  color: #fff; }
-
+  color: #fff;
+}
 .section-b {
   background: #debace;
-  color: #fff; }
+  color: #fff;
+}
 
 .btn-dark, .btn-light {
   display: inline-block;
@@ -36,24 +40,24 @@ header h1 {
   border: none;
   cursor: pointer;
   text-decoration: none;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+}
 
 .btn-light {
   background: #fbfacd;
-  color: #7f669d; }
-
+  color: #7f669d;
+}
 .btn-light:hover {
   --webkit-transform: $property;
   transform: rotate(20deg);
-  background-color: #f7f59e; }
-
+  background-color: #f7f59e;
+}
 .btn-dark {
   background: #7f669d;
-  color: #fbfacd; }
-
+  color: #fbfacd;
+}
 .btn-dark:hover {
   --webkit-transform: $property;
   transform: rotate(-20deg);
-  background-color: #9985b1; }
-
-/*# sourceMappingURL=main.css.map */
+  background-color: #9985b1;
+}/*# sourceMappingURL=main.css.map */
